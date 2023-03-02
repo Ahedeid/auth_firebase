@@ -97,7 +97,7 @@ class _AuthScreenState extends State<AuthScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[300],
+      backgroundColor: Colors.grey.shade300,
       body: Center(
         child: SingleChildScrollView(
           child: Column(
@@ -235,7 +235,7 @@ class _AuthScreenState extends State<AuthScreen> {
                 children: [
                   Text(
                     'Not a member?',
-                    style: TextStyle(color: Colors.grey[700]),
+                    style: TextStyle(color: Colors.grey.shade700),
                   ),
                   const SizedBox(width: 5),
                   InkWell(
